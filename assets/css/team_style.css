@@ -1,0 +1,57 @@
+.about__container {
+    grid-template-columns: 500px 500px;
+    align-items: center;
+    column-gap: 5rem;
+  } 
+
+
+.team__social { 
+    justify-self: left;
+    padding-left: 1.5rem;
+}
+
+.position_role { 
+    color: var(--first-color);
+}
+.position_role:hover { 
+    color: var(--white-color);
+}
+
+
+@media screen and (max-width: 480px) {
+    .team_title_size{ 
+        font-size: 0.7rem;
+    }
+} 
+
+@media screen and (max-width: 768px) {
+    .team_title_size{ 
+        font-size: 1rem;
+    }
+} 
+
+
+
+@media screen and (max-width: 1149px) {
+    #team_large{
+            display: none;
+        } 
+
+    .team_title_size{ 
+        font-size: 2rem;
+    }
+} 
+
+
+@media screen and (min-width: 1150px) {
+    #team_small {
+        display: none;
+    } 
+} 
+
+
+
+
+
+
+
